@@ -6,9 +6,10 @@ import numpy as np
 import streamlit as st
 from PIL import Image, ImageOps, ImageDraw, ImageFont, ImageEnhance, ImageFilter
 
-st.set_page_config(page_title="Image Applications Studio", page_icon="🧩", layout="wide")
+st.set_page_config(page_title="PragyanAI- Image Applications Studio", page_icon="🧩", layout="wide")
 
-st.title("🧩 Image Applications Studio")
+st.title("PragyanAI - Image Applications Studio")
+st.image("PragyanAI_Transperent.png")
 st.caption("Crop • Stack • Merge • Watermark • Mask • Overlay • Logo • Tags • Export")
 
 st.markdown("""
